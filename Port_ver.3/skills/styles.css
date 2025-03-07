@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #231F20;
+    padding: auto;
+}
+
+main header{
+    justify-content: space-between;
+    display: flex;
+    margin: 1rem;
+}
+
+main header a{
+    text-decoration: none;
+    color: #EFE6DD;
+}
+
+main header nav{
+    width: fit-content;
+    
+}
+
+main header nav .nav-list{
+    display: flex;
+    justify-content: end;
+    
+}
+
+main header nav .nav-list a{
+    text-decoration: none;
+    color: #EFE6DD;
+}
+
+main header nav .nav-list .nav-points{
+    padding: 1rem;
+    list-style: none;
+}
+
+main header .logo{
+    padding: 2rem;
+    width: 1050px;
+
+}
+
+main h1{
+    text-align: center;
+    color: #EFE6DD;
+}
+main .skill_tree{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 6rem;
+    background-color: #EFE6DD;
+    border-radius: 5rem;
+    height: auto;
+    width: auto;
+}
+
+main .skill_tree .skill_table_one{
+    color: #231F20;
+    font-size: larger;
+    padding: 4rem;
+    width: 26rem;
+}
+
+main .skill_tree .skill_table_two{
+    color: #231F20;
+    font-size: larger;
+    padding: 4rem;
+    justify-content: center;
+    width: 26rem;
+}
+
+main .skill_tree .skill{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+main .skill_tree .skill_table_one .skill{
+    padding-bottom: 2.5rem;
+}
+
+main .bar{
+    background-color: #231F20;
+    border-radius: 2rem;
+    color: #EFE6DD;
+    text-align: center;
+    width: 100%;
+    font-size: medium;
+}
+
+main .skill_tree .butts{
+    width: 16rem;
+    height: 4rem;
+    color: #EFE6DD;
+    background-color: #879DFF;
+    border-style: none;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+main .skill_tree .butts:hover{
+    cursor: pointer;
+    background-color: #FF903B;
+    color: #231F20;
+    transition: 0.5s;
+}
