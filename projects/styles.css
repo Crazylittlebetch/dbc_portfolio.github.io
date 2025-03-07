@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #EFE6DD;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #231F20;
+    padding: auto;
+}
+
+main header{
+    justify-content: space-between;
+    display: flex;
+    margin: 1rem;
+}
+
+main header a{
+    text-decoration: none;
+}
+
+main header nav{
+    width: fit-content;
+}
+
+main header nav .nav-list{
+    display: flex;
+    justify-content: end;
+}
+
+main header nav .nav-list a{
+    text-decoration: none;
+}
+
+main header nav .nav-list .nav-points{
+    padding: 1rem;
+    list-style: none;
+}
+
+main header .logo{
+    padding: 2rem;
+    width: 1050px;
+
+}
+
+main h1{
+    text-align: center;
+}
+
+main .boxer{
+    display: flex;
+    margin: 4rem;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+main .boxer .project{
+    padding: 2rem;
+    text-align: center;
+}
+
+main .boxer .project img{
+    height: 50%;
+    width: 50%;
+    border-radius: 2rem;
+}
+
+main .boxer .project img:hover{
+    opacity: 50%;
+    transform: scale(110%);
+    transition: 1s;
+    cursor: pointer;
+}
+
+main .boxer_two .project_two{
+    text-align: center;
+    height: 12rem;
+}
